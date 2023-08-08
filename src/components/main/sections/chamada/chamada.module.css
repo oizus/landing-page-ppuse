@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;500;700&family=Anton&display=swap");
+
+.container {
+	font-family: aleo-regular, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	min-height: 65vh;
+	text-align: center;
+}
+
+.header {
+	margin-top: 60px;
+	font-size: medium;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header span {
+	font-size: 42px;
+	color: #37393f;
+}
+
+.header img {
+	width: 90px;
+	height: 90px;
+	margin-bottom: 10%;
+}
+
+.line {
+	width: 250px;
+	/* height: 2px; */
+	border-top: 2px solid #d4676d;
+	margin-top: 10px;
+}
+
+.chamada {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: whitesmoke;
+	/*height: 100vh;*/
+}
+
+.chamada h1 {
+	font-weight: bold;
+	font-size: xxx-large;
+}
+
+.chamada h2 {
+	font-weight: lighter;
+	font-size: large;
+	margin-top: -20px;
+	margin-bottom: 25px;
+}
+
+.divButtonCadastre {
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.cadastreButton {
+	background-color: #d4676d;
+	border: 0px;
+	border-radius: 10px;
+	width: 240px;
+	height: 60px;
+	transition: 0.3s;
+}
+
+.cadastreButton:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cadastre {
+	font-size: 19px;
+}
+
+.cadastre:link,
+.cadastre:visited {
+	text-decoration: none;
+	color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.chamada h1 {
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.container {
+		padding: 10px;
+	}
+
+	.header img {
+		width: 70px; /* Reduzindo o tamanho da imagem para dispositivos móveis */
+		height: 70px;
+	}
+
+	.line {
+		width: 80%; /* Ajustando a largura da linha para dispositivos móveis */
+	}
+}

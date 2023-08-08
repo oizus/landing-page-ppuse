@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;   
+}
+
+.form {
+    margin-top: 45px;
+}
+
+.divButton {    
+    display: flex;
+    justify-content: center; 
+}
+
+.enviarButton {   
+    background-color: #D4676D;
+    border: 0px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 20px;
+    color: white;
+
+}
+
+.enviarButton:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .form {
+        padding-top: 50px;
+        display: block;
+        margin: auto;       
+        width: 650px;
+    }
+    
+}
+
+
+
+.termos:link {
+    color: #D4676D;
+    text-decoration: none;
+}
+
+.termos:hover {
+    color: #D4676D;
+    text-decoration: underline;
+}
+
+.termos:active {
+    color: #D4676D;
+}
